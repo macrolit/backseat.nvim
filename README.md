@@ -21,19 +21,11 @@ This is a fork of Backseat.nvim designed to support Hugging Face's free API mode
 
 ## Installation
 
-Using your preferred plugin manager, install the fork. For example, with packer.nvim:
+Using your preferred plugin manager, install the fork. For example, with lazy.nvim:
 
-lua
-
-`use('yourusername/backseat.nvim')`
-
-## Setup
 
 #### Lazy
 
-`require('backseat').setup({     use_huggingface = true,  -- Set to false to use original ChatGPT implementation    hf_api_key = 'your_huggingface_api_key',  -- Required for Hugging Face    custom_fewshot = 'path/to/your/fewshot.txt',  -- Optional: path to custom fewshot prompt    -- Other options... })`
-
-## Usage
 
 ```lua
 return {
@@ -126,8 +118,9 @@ line=8: # Use regex to find all words in the text, \b represents word boundaries
 }
 
 ```
+## Setup
 
-# Custom Prompts
+### Custom Prompts
 
 Creating a custom prompt should be done in a similar structure where {junior_novice} is the name of the prompt. Save the config file. Once in neovim enter [Backseat] {prompt name} in this case`:Backseat junior_novice`
 ```lua
