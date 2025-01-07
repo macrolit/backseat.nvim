@@ -4,7 +4,7 @@ This is a fork of Backseat.nvim designed to support Hugging Face's Inference API
 
 ![image](https://i.postimg.cc/Cx2srNQt/Screenshot-from-2024-10-16-22-50-28.png)
 
-![image](https://i.postimg.cc/brKqF41r/Screenshot-from-2024-10-15-23-04-09.png)
+![image](https://i.postimg.cc/Y9sWbm2w/Screenshot-from-2025-01-07-22-35-10.png)
 
 ![image](https://i.postimg.cc/13yzhhLV/Screenshot-from-2024-10-16-22-46-01.png)
 
